@@ -12,5 +12,13 @@ module UIButtonHelper
     button.addTarget(self, action:'buttonIsTapped', forControlEvents:UIControlEventTouchUpInside)
     button
   end
+
+  def self.buttonIsPressed
+    NSLog("Button was pressed down")
+  end
+
+  def self.buttonIsTapped
+    NSLog("Button was tapped")
+  end
 end
 

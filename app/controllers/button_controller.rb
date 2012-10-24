@@ -11,12 +11,4 @@ class ButtonController < UIViewController
     @button.frame = [[90,300],[200,37]]
     self.view.addSubview @button
   end
-
-  def buttonIsPressed
-    NSLog("Button was pressed down")
-  end
-
-  def buttonIsTapped
-    NSLog("Button was tapped")
-  end
 end
